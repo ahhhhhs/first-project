@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Apple SD Gothic Neo, arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration-line: underline;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+  padding: 6px;
+  height: 48px;
+  font-size: 14px;
+}
+
+.navbar .navbar-right {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}
+
+.navbar .nav-item {
+  padding: 5px;
+  margin: 5px;
+  font-size: 13px;
+}
+
+.navbar .navbar-right .user {
+  width: 30px;
+  height: 30px;
+  background-color: #1a0dab;
+  border-radius: 50%;
+  margin: 0 10px;
+  font-size: 11px;
+  color: white;
+  text-align: center;
+}
+
+.navbar .navbar-right .user .name {
+  position: relative;
+  top: 6px;
+}
+
+.main {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px 20px 0px;
+}
+
+.search .search-box {
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  width: 560px;
+  height: 41px;
+  padding: 0px 105px 2px 40px;
+}
+
+.search-box:hover {
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #dadce0;
+}
+
+.search .search-icon {
+  font-size: 18px;
+  color: #9aa0a6;
+  position: relative;
+  left: 35px;
+}
+
+.search .keyboard-icon {
+  font-size: 18px;
+  color: #9aa0a6;
+  position: relative;
+  right: 100px;
+}
+
+.search .mic-icon {
+  padding: 2px 2px 3px 2px;
+  position: relative;
+  right: 100px;
+}
+
+.search .cam-icon {
+  padding: 3px 3px 4px 3px;
+  position: relative;
+  right: 110px;
+}
+
+.bt {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  text-align: center;
+  cursor: pointer;
+  height: 36px;
+  min-width: 54px;
+}
+
+.button:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+}
+
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  background-color: #f2f2f2;
+}
+
+.footer .korea {
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+  color: #202124;
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+.footer .etc {
+  padding: 15px 30px;
+  font-size: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footer .etc .item {
+  padding: 15px;
+}
